@@ -1,3 +1,3 @@
 str = "Hello world"
 
-print(str[ :11]*3)
+print(str[:11]*3)
