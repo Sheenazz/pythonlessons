@@ -1,7 +1,12 @@
 sentence = "I'm a little tea pot"
-array = [" "]
-def CapitalizeFirstLetter(array):
-    if array = [0]:
-        array.capitalize()
 
-print(CapitalizeFirstLetter)
+
+def capitalizeFirstLetter(supersentence):
+    wordsArray = supersentence.split()
+    finalCapitalizedWordsArray = []
+    for index, word in enumerate(wordsArray):
+        finalCapitalizedWordsArray.append(word.capitalize())
+    return " ".join(finalCapitalizedWordsArray)
+   
+
+print(capitalizeFirstLetter(sentence))
